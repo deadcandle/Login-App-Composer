@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'misha/loginapp',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => '8405f195a62d1b806898b55615d9e420192cbf47',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
         'type' => 'phpunit',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'misha/loginapp' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '8405f195a62d1b806898b55615d9e420192cbf47',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
             'type' => 'phpunit',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

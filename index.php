@@ -43,8 +43,8 @@
 		$user->GetUser($user->username);
 		
 		// Print userdata
-		echo "<h2>Het spel kan beginnen</h2>";
-		echo "Je bent ingelogd als: ".$_SESSION['user']['user_username']."<br/>";
+		// echo "<h2>Het spel kan beginnen</h2>";
+		// echo "Je bent ingelogd als: ".$_SESSION['user']['user_username']."<br/>";
 		$user->ShowUser();
 		echo "<br><br>";
 		echo '<a href = "?logout=true">Logout</a>';

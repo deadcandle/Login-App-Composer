@@ -63,7 +63,7 @@
         public function LoginUser() {
 
             // Connect database
-            $conn = new mysqli("localhost", "root", "123456", "loginapp");
+            $conn = mysqli_connect("localhost", "root", "123456", "loginapp");
 
             // Zoek user in de table user
             $result = ($conn -> query("SELECT * FROM users WHERE user_username = '$this->username' and user_password = '$this->password'")) -> fetch_assoc();

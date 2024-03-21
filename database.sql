@@ -1,5 +1,5 @@
 
-drop database loginapp;
+drop database if exists loginapp;
 create database loginapp;
 
 use loginapp;

@@ -72,9 +72,13 @@
 
             // Zet de user in de sessie
             session_start();
-            $_SESSION["user"] = $result;
-            
-            return true;
+
+            if ($result) {
+                $_SESSION["user"] = $result;
+                return true;
+            }
+            return false;
+
         }
 
         // Check if the user is already logged in
